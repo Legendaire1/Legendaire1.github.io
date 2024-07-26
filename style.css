@@ -1,0 +1,70 @@
+
+  /* END OF BASE STYLES */
+html{
+  height: 100%;
+}
+body{
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  height:100%
+ }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+    margin:0 auto;
+  }
+
+  .col {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: auto;
+  }
+
+
+
+  .item-1 {
+    width: 528px;
+
+  }
+
+  .item-2 {
+    width: 528px;
+    overflow: auto;
+  }
+
+  .col-2{
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100%;
+    overflow: auto;
+  }
+
+  #contact {
+    margin-top:500px;
+  }
+
+  #sidebar > .inner {
+		opacity: 1 !important;
+	}
+
+	#sidebar nav > ul > li {
+		-moz-transform: none !important;
+		-webkit-transform: none !important;
+		-ms-transform: none !important;
+		transform: none !important;
+		opacity: 1 !important;
+	}
+
+  @media (max-width: 500px) {
+    .container {
+      flex-direction: column;
+      
+    }
+  }
+  
